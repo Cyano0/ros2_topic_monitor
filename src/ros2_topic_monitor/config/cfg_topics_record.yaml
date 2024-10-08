@@ -1,6 +1,6 @@
 topics:
   lidars:
-    - /back_lidar/points
+    # - /back_lidar/points
     - /front_lidar/points
   cameras:
     # - /back_camera/image_raw
@@ -9,6 +9,9 @@ topics:
     - /front_camera/image_raw
     - /front_camera/depth
     - /front_camera/points
+    - /fisheye_image_SN00012
+    - /fisheye_image_SN00013
+    - /fisheye_image_SN00014
   gps:
     - /gps_base/fix
     - /gps_base/odometry
