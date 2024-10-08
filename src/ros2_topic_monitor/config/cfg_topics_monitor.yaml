@@ -14,6 +14,15 @@ sensors:
   - name: "ZED front"
     topic: "/front_camera/depth"
     message_type: "sensor_msgs.msg.Image"
+  - name: "Fisheye 02"
+    topic: "/fisheye_image_SN00012"
+    message_type: "sensor_msgs.msg.Image"
+  - name: "Fisheye 03"
+    topic: "/fisheye_image_SN00013"
+    message_type: "sensor_msgs.msg.Image"
+  - name: "Fisheye 04"
+    topic: "/fisheye_image_SN00014"
+    message_type: "sensor_msgs.msg.Image"
 
 gnss_status:
   topic: "/gps_base/fix"
