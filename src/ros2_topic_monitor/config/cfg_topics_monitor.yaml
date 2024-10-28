@@ -23,6 +23,9 @@ sensors:
   - name: "Fisheye 04"
     topic: "/fisheye_image_SN00014"
     message_type: "sensor_msgs.msg.Image"
+  - name: "Camera Info"
+    topic: "/front/zed_no de_1/rgb_raw/camera_info"
+    message_type: "sensor_msgs.msg.CameraInfo"
 
 gnss_status:
   topic: "/gps_base/fix"
