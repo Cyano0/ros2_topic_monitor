@@ -12,6 +12,7 @@ topics:
     - /fisheye_image_SN00012
     - /fisheye_image_SN00013
     - /fisheye_image_SN00014
+    - /front/zed_no de_1/rgb_raw/camera_info
   gps:
     - /gps_base/fix
     - /gps_base/odometry
